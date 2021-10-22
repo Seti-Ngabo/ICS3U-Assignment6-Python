@@ -25,11 +25,11 @@ def main():
         length = float(length_string)
 
         # call function
-        cube_volume_value = cube_volume(length)
+        volume_number = cube_volume(length)
         if length < 0:
             print("\n{0} is a negative number, try again.".format(length_string))
         else:
-            print("\nThe volume of the cube is {} cm³".format(cube_volume_value))
+            print("\nThe volume of the cube is {} cm³".format(volume_number))
 
     except Exception:
         print("\n{} is an invalid input, try again.".format(length_string))
