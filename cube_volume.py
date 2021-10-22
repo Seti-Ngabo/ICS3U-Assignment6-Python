@@ -15,7 +15,7 @@ def cube_volume(length):
 
 
 def main():
-    # this function accepts inputs
+    # this function accepts cube length
 
     # input
     length_string = input("Enter cube length (cm): ")
